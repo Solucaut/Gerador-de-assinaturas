@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura o arquivo CSS, o titulo e o icone da pagina -->
+  <title>Solucaut - Gerador de Assinaturas</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="icon" href="https://solucaut.com.br/assinatura/img/favicon.png" type="image/png">
+</head>
+
+<body>
+  <!-- Cria um wrapper "app" -->
+  <div class="app">
+    <!-- Cria um wrapper "content" -->
+    <div class="content">
+      <!-- Cria um cabecalho com a logo e o nome/slogan -->
+      <div class="header">
+        <span>
+          <img src="https://solucaut.com.br/assinatura/img/icone.png" class="assinaturaImagem"
+            style="max-width: 100px;">
+        </span>
+        <h1 class="display-4">SOLUCAUT</h1>
+        <p class="h2"> Soluções em Controle, Automação e Eletrônica</p>
+      </div>
+
+
+      <div class="forms">
+        <!-- Cria um formulario para o usuario preencher -->
+        <form>
+          <!-- Cada campo e uma divisao com um texto (descricao) e uma entrada de texto <input> -->
+          <!-- Cada <input> recebe um id, que e usado no script para pegar o que o usuario digitou -->
+          <div class="form-input">
+            <p>Nome:</p><input type="text" id="nome" class="input-text">
+          </div>
+          <div class="form-input">
+            <p>Sobrenome:</p><input type="text" id="sobrenome" class="input-text">
+          </div>
+          <div class="form-input">
+            <p>Celular:</p><input type="tel" id="celular" class="input-text">
+          </div>
+          <div class="form-input">
+            <!-- Nesse campo em especifico tem um <select> no lugar da <input> -->
+            <p>Cargo:</p>
+            <select id="cargos">
+              <!-- O value de cada uma das opcoes sera usado (ao inves do que o usuario digitou) -->
+              <option value="Presidente">Presidente</option>
+              <option value="Vice-Presidente">Vice-Presidente</option>
+              <option value="Diretor Comercial">Diretor Comercial</option>
+              <option value="Diretor de Projetos">Diretor de Projetos</option>
+
+              <option value="Gerente de Marketing">Gerente de Marketing</option>
+              <option value="Gerente de Projetos">Gerente de Projetos</option>
+              <option value="Gerente Financeiro">Gerente Financeiro</option>
+              <option value="Gerente de Recursos Humanos">Gerente de Recursos Humanos</option>
+              <option value="Gerente de Negócios">Gerente de Negócios</option>
+
+              <option value="Assessor de Negócios">Assessor de Negócios</option>
+              <option value="Assessor de Projetos">Assessor de Projetos</option>
+              <option value="Assessor Financeiro">Assessor Financeiro</option>
+              <option value="Assessor de Recursos Humanos">Assessor de Recursos Humanos</option>
+              <option value="Assessor de Negócios">Assessor de Negócios</option>
+
+              <option value="Trainee de Marketing">Trainee de Marketing</option>
+              <option value="Trainee de Recursos Humanos">Trainee de Recursos Humanos</option>
+              <option value="Trainee de Negócios">Trainee de Negócios</option>
+              <option value="Trainee de Projetos">Trainee de Projetos</option>
+              <option value="Trainee Financeiro">Trainee Financeiro</option>
+            </select>
+          </div>
+        </form>
+      </div>
+
+      <div class="assinatura-wrapper">
+
+        <!-- Cria a divisao que sera usada para copiar a assinatura -->
+        <div class="assinatura-div" id="assinatura-div">
+          <!-- Adiciona dentro dela uma tabela -->
+          <!--  -->
+          <!-- 
+          |-------------------------------------|
+          |      |       | |------------------| |
+          |      |       | | icone | telefone | |
+          |      | nome  | |------------------| |
+          | logo | cargo | | icone | telefone | |
+          |      |       | |------------------| |
+          |      |       | | icone |   site   | |
+          |      |       | |------------------| |
+          |-------------------------------------|
+        -->
+
+          <table cellpadding="0" cellspacing="0">
+            <td>
+              <a href="http://clicknabio.com/solucaut">
+                <img style="width: 130px;" src="https://solucaut.com.br/assinatura/img/icone-ass.png" />
+              </a>
+            </td>
+            <td style="padding-left: 20px; white-space: nowrap;">
+              <h3 style="margin: 0px; font-size: 18px; white-space: nowrap;">
+                <span id="nome-assinatura">Nome Sobrenome</span>
+              </h3>
+              <p style="margin: 0px; font-size: 14px; line-height: 22px; white-space: nowrap;">
+                <span id="cargo-assinatura">Cargo na empresa</span>
+              </p>
+            </td>
+            <td style="padding-left: 30px; text-decoration: none; color: #000000; font-size: 12px;">
+              <table>
+                <tr height="25" style="vertical-align: middle;">
+                  <td width="30" style="vertical-align: middle;">
+                    <img src="https://solucaut.com.br/assinatura/img/account_circle-24px.png">
+                  </td>
+                  <td style="vertical-align: middle;">
+                    <a id="celular-assinatura" href="https://wa.me/5599999999999" style="text-decoration: none; color: #000000; font-size: 14px;
+                            vertical-align: middle; white-space: nowrap;">
+                      <span>99 99999 9999</span>
+                    </a>
+                  </td>
+                </tr>
+                <tr height="25" style="vertical-align: middle;">
+                  <td width="30" style="vertical-align: middle;">
+                    <img src="https://solucaut.com.br/assinatura/img/work-24px.png">
+                  </td>
+                  <td>
+                    <a href="https://wa.me/5543991067991" style="text-decoration: none; color: #000000; font-size: 14px;
+                            vertical-align: middle; white-space: nowrap;">
+                      <span>43 99106 7991</span>
+                    </a>
+                  </td>
+                </tr>
+                <tr height="25" style="vertical-align: middle;">
+                  <td width="30" style="vertical-align: middle;">
+                    <img src="https://solucaut.com.br/assinatura/img/link-24px.png">
+                  </td>
+                  <td>
+                    <a href="http://clicknabio.com/solucaut" style="text-decoration: none; color: #000000; font-size: 14px;
+                            vertical-align: middle; white-space: nowrap;">
+                      <span>Solucaut</span>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </table>
+        </div>
+      </div>
+      
+      <!-- Cria divisao para o botao na parte de baixo -->
+      <div class="center-button">
+        <button type="submit" id="btn-copiar">
+          <h2>Copiar para a área de Transferência</h2>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Configura o script com o codigo -->
+  <script src="index.js"></script>
+</body>
+
+</html>

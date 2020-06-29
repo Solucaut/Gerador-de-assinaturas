@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ededed;
+}
+
+.app {
+  padding: 2vh 2vw 2vh 2vw;
+}
+
+.content {
+  max-width: 1040px;
+  margin: auto;
+}
+
+/* Cabecalho */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.header h1 {
+  font-size: 56px;
+  margin: 0;
+  font-weight: 400;
+}
+.header p {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Formulario */
+
+.forms {
+  margin-top: 5vh;
+  padding: 5vh 1vw 5vh 1vw;
+  align-items: center;
+}
+.forms form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* top right bottom left */
+  padding: 1vh 1vw 1vh 1vw;
+  text-align: right;
+}
+.form-input p {
+  width: 15%;
+}
+label {
+  color: #5b3314;
+}
+input,
+select {
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid #ff5100;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #ff5100;
+  color: #ffffff;
+  width: 80%;
+  text-align: center;
+}
+input:focus,
+select:focus {
+  outline: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+}
+button {
+  border-radius: 10px;
+  border: 0;
+  background-color: #ff5100;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms;
+}
+
+/* Botao */
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+button:active {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+button h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Assinatura */
+.assinatura-wrapper {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.assinatura-div {
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+@media (max-width: 800px) {
+  .app {
+    width: 100vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    width: 100%;
+  }
+  .header h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .header p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .forms form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  input,
+  select {
+    width: 100%;
+  }
+  .form-input {
+    display: block;
+  }
+  .form-input p {
+    display: block;
+    width: auto;
+    text-align: start;
+  }
+  .assinatura-div {
+    overflow: hidden;
+  }
+}
