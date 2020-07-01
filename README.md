@@ -5,7 +5,7 @@ Esse projeto surgiu pela necessidades dos membros da [Solucaut](https://solucaut
 ![image](https://user-images.githubusercontent.com/23709916/85934678-c5cb0300-b8bc-11ea-9bd9-50bc1bd9660b.png)
 
 ## TLDR;
-- [Como criar sua assinatura e adicionar no Gmail](https://github.com/Solucaut/Gerador-de-assinaturas/wiki/Gerando-uma-assinatura)
+- [Como criar sua assinatura e adicionar ao Gmail](https://github.com/Solucaut/Gerador-de-assinaturas/wiki/Gerando-uma-assinatura)
 - [Criando a sua própria versão da ferramenta](https://github.com/Solucaut/Gerador-de-assinaturas/wiki/Criando-a-sua-pr%C3%B3pria-vers%C3%A3o)
 
 ## Versão live 🌐
