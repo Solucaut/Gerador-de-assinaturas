@@ -5,18 +5,21 @@ Esse projeto surgiu pela necessidades dos membros da [Solucaut](https://solucaut
 ![image](https://user-images.githubusercontent.com/23709916/85934678-c5cb0300-b8bc-11ea-9bd9-50bc1bd9660b.png)
 
 ## TLDR;
-- [Como criar sua assinatura e adicionar ao Gmail](https://github.com/Solucaut/Gerador-de-assinaturas/wiki/Gerando-uma-assinatura)
-- [Criando a sua própria versão da ferramenta](https://github.com/Solucaut/Gerador-de-assinaturas/wiki/Criando-a-sua-pr%C3%B3pria-vers%C3%A3o)
+- [Como criar sua assinatura e adicionar no Gmail](https://github.com/Diego-Lopes-Ferreira/Email-sign-generator/wiki/Gerando-uma-assinatura)
+- [Criando a sua própria versão da ferramenta](https://github.com/Diego-Lopes-Ferreira/Email-sign-generator/wiki/Criando-a-sua-pr%C3%B3pria-vers%C3%A3o)
 
 ## Versão live 🌐
 Uma versão live pode ser econtrada em [assinatura.solucaut.com.br](https://assinatura.solucaut.com.br)
 
 ## Tecnologias utilizadas 💻
-Desde o início a ideia foi manter o projeto o mais simples possível, por esse motivo todo o backend foi programado usando JavaScript, tanto a homepage quanto a assinatura em HTML e a estilização, CSS puro.
+Desde o início a ideia foi manter o projeto o mais simples possível, por esse motivo, nenhuma biblioteca externa do Javascript ou Framework para CSS foi utilizado.
+* Javascript
+* HTML
+* CSS
 
 ## Utilizando a ferramenta 🔌
-* Se você **é um membro** da Solucaut, é só acessar [essa página](https://assinatura.solucaut.com.br) e inserir suas informações para criar a assinatura. As instruções para adicionar ao Gmail você encontra [aqui](https://github.com/Solucaut/Gerador-de-assinaturas/wiki/Gerando-uma-assinatura) .
-* Caso você **não** seja um membro, você pode encontrar instruções para criar sua própria versão [aqui](https://github.com/Solucaut/Gerador-de-assinaturas/wiki/Criando-a-sua-pr%C3%B3pria-vers%C3%A3o).
+* Se você **é um membro** da Solucaut, é só acessar [essa página](https://assinatura.solucaut.com.br) e inserir suas informações para criar a assinatura. As instruções para adicionar ao Gmail você encontra [aqui](https://github.com/Diego-Lopes-Ferreira/Email-sign-generator/wiki/Gerando-uma-assinatura) .
+* Caso você **não** seja um membro, você pode encontrar instruções para criar sua própria versão [aqui](https://github.com/Diego-Lopes-Ferreira/Email-sign-generator/wiki/Criando-a-sua-pr%C3%B3pria-vers%C3%A3o).
 
  ## Contribuindo 🔎
  Se você deseja contribuir de alguma maneira, fique a vontade. Aqui vão algumas sugestões:
