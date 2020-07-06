@@ -32,7 +32,7 @@ Desde o início a ideia foi manter o projeto o mais simples possível, por esse 
  * Dando sugestões de novas features ou melhorias
  
  ## Licença 📕
- Esse projeto está sob a licença MIT, o que quer dizer que você pode fazer sua própria versão e inclusive distribuir comercialmente, então fique a vontade para criar seu fork.
+ Esse projeto está sob a (licença MIT)[https://www.mit.edu/~amini/LICENSE.md], o que quer dizer que você pode fazer sua própria versão e inclusive distribuir comercialmente, então fique a vontade para criar seu fork.
  
  ## Contribuidores 🗿
 | [![](https://github.com/Diego-Lopes-Ferreira.png?size=150)](https://github.com/Diego-Lopes-Ferreira) | [![](https://github.com/tashima42.png?size=150)](https://github.com/tashima42) | [![](https://github.com/Guilherme-Schmidt.png?size=150)](https://github.com/Guilherme-Schmidt) |
