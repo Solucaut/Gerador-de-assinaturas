@@ -12,7 +12,7 @@ Esse projeto surgiu pela necessidades dos membros da [Solucaut](https://solucaut
 Uma versão live pode ser econtrada em [assinatura.solucaut.com.br](https://assinatura.solucaut.com.br)
 
 ## Tecnologias utilizadas 💻
-Desde o início a ideia foi manter o projeto o mais simples possível, por esse motivo, nenhuma biblioteca externa do Javascript ou Framework para CSS foi utilizado.
+Desde o início a ideia foi manter o projeto o mais simples possível, por esse motivo, nenhuma biblioteca ou Framework foram utilizados.
 * Javascript
 * HTML
 * CSS
