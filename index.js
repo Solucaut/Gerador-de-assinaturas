@@ -103,7 +103,7 @@ function editaCelular(cel) {
       return cel.slice(0, 2) + ' ' + cel.slice(2, 7) + ' ' + cel.slice(7)
     } else {
       // se passar de 11, envie a mensagem de erro
-      alert('Coloque o telefone no formato 12 12345 1234 (com 11 numeros)')
+      alert('Coloque o telefone no formato 12 12345 1234 (com 11 números)')
       return '99 99999 9999'
     }
   } catch (err) { }
@@ -120,7 +120,7 @@ function copiar() {
     range.select();
     // executa o comando de copiar
     document.execCommand("Copy");
-    alert("Copiado para a area de tranferencia");
+    alert("Copiado para a area de transferência");
   } else if (window.getSelection) {
     // para os outros
     // cria um elemento chamado "range", move a area para dentro dele e o seleciona
@@ -131,6 +131,6 @@ function copiar() {
     selection.addRange(range);
     // executa o comando de copiar
     document.execCommand("Copy");
-    alert("Copiado para a area de tranferencia");
+    alert("Copiado para a area de transferência");
   }
 }
