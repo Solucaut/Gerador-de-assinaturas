@@ -44,29 +44,51 @@
             <!-- Nesse campo em especifico tem um <select> no lugar da <input> -->
             <p>Cargo:</p>
             <select id="cargos">
-              <!-- O value de cada uma das opcoes sera usado (ao inves do que o usuario digitou) -->
-              <option value="Presidente">Presidente</option>
-              <option value="Vice-Presidente">Vice-Presidente</option>
-              <option value="Diretor Comercial">Diretor Comercial</option>
-              <option value="Diretor de Projetos">Diretor de Projetos</option>
+               <!-- O value de cada uma das opcoes sera usado (ao inves do que o usuario digitou) -->
+               <option value="" selected disabled></option>
 
-              <option value="Gerente de Marketing">Gerente de Marketing</option>
-              <option value="Gerente de Projetos">Gerente de Projetos</option>
-              <option value="Gerente Financeiro">Gerente Financeiro</option>
-              <option value="Gerente de Recursos Humanos">Gerente de Recursos Humanos</option>
-              <option value="Gerente de Negócios">Gerente de Negócios</option>
+               <optgroup label="Presidência">
+                <option value="Presidente">Presidente</option>
+                <option value="Vice-Presidente">Vice-Presidente</option>
+              </optgroup>
 
-              <option value="Assessor de Negócios">Assessor de Negócios</option>
-              <option value="Assessor de Projetos">Assessor de Projetos</option>
-              <option value="Assessor Financeiro">Assessor Financeiro</option>
-              <option value="Assessor de Recursos Humanos">Assessor de Recursos Humanos</option>
-              <option value="Assessor de Marketing">Assessor de Marketing</option>
+              <optgroup label="Projetos">
+                <option value="Diretor de Projetos">Diretor de Projetos</option>
+                <option value="Gerente de Projetos">Gerente de Projetos</option>
+                <option value="Assessor de Projetos">Assessor de Projetos</option>
+                <option value="Trainee de Projetos">Trainee de Projetos</option>
+              </optgroup>
+              
+              <optgroup label="P&amp;D">
+                <option value="Gerente de P&amp;D">Gerente de P&amp;D</option>
+                <option value="Assessor de P&amp;D">Assessor de P&amp;D</option>
+              </optgroup>
 
-              <option value="Trainee de Marketing">Trainee de Marketing</option>
-              <option value="Trainee de Recursos Humanos">Trainee de Recursos Humanos</option>
-              <option value="Trainee de Negócios">Trainee de Negócios</option>
-              <option value="Trainee de Projetos">Trainee de Projetos</option>
-              <option value="Trainee Financeiro">Trainee Financeiro</option>
+              <optgroup label="Negócios">
+                <option value="Diretor de Negócios">Diretor de Negócios</option>
+                <option value="Gerente de Negócios">Gerente de Negócios</option>
+                <option value="Assessor de Negócios">Assessor de Negócios</option>
+                <option value="Trainee de Negócios">Trainee de Negócios</option>
+              </optgroup>
+              
+              <optgroup label="Marketing">
+                <option value="Diretor de Marketing">Diretor de Marketing</option>
+                <option value="Gerente de Marketing">Gerente de Marketing</option>
+                <option value="Assessor de Marketing">Assessor de Marketing</option>
+                <option value="Trainee de Marketing">Trainee de Marketing</option>
+              </optgroup>
+
+              <optgroup label="Recursos Humanos">
+                <option value="Gerente de Recursos Humanos">Gerente de Recursos Humanos</option>
+                <option value="Assessor de Recursos Humanos">Assessor de Recursos Humanos</option>
+                <option value="Trainee de Recursos Humanos">Trainee de Recursos Humanos</option>
+              </optgroup>
+
+              <optgroup label="Financeiro">
+                <option value="Gerente Financeiro">Gerente Financeiro</option>
+                <option value="Assessor Financeiro">Assessor Financeiro</option>
+                <option value="Trainee Financeiro">Trainee Financeiro</option>
+              </optgroup>
             </select>
           </div>
         </form>
