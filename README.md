@@ -35,6 +35,6 @@ Desde o início a ideia foi manter o projeto o mais simples possível, por esse 
  Esse projeto está sob a [licença MIT](https://www.mit.edu/~amini/LICENSE.md), o que quer dizer que você pode fazer sua própria versão e inclusive distribuir comercialmente, então fique a vontade para criar seu fork.
  
  ## Contribuidores 🗿
-| [![](https://github.com/Diego-Lopes-Ferreira.png?size=150)](https://github.com/Diego-Lopes-Ferreira) | [![](https://github.com/tashima42.png?size=150)](https://github.com/tashima42) | [![](https://github.com/Guilherme-Schmidt.png?size=150)](https://github.com/Guilherme-Schmidt) |
-|--|--|--|
-| [@Diego-Lopes-Ferreira](https://github.com/Diego-Lopes-Ferreira) | [@Tashima42](https://github.com/tashima42) | [@Guilherme-Schimidt](https://github.com/Guilherme-Schmidt) |
+| [![Diego Lopes](https://github.com/Diego-Lopes-Ferreira.png?size=150)](https://github.com/Diego-Lopes-Ferreira) | [![Pedro Tashima](https://github.com/tashima42.png?size=150)](https://github.com/tashima42) | [![Guilherme Schmidt](https://github.com/Guilherme-Schmidt.png?size=150)](https://github.com/Guilherme-Schmidt) | [![Esdras Battosti](https://github.com/ximiraxelo.png?size=150)](https://github.com/ximiraxelo)
+|--|--|--|--|
+| [@Diego-Lopes-Ferreira](https://github.com/Diego-Lopes-Ferreira) | [@Tashima42](https://github.com/tashima42) | [@Guilherme-Schimidt](https://github.com/Guilherme-Schmidt) | [@ximiraxelo](https://github.com/ximiraxelo)
